@@ -1,6 +1,7 @@
 {
     "name": "symfony/framework-standard-edition",
     "description": "The \"Symfony Standard Edition\" distribution",
+	"minimum-stability": "dev",
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -18,7 +19,15 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
-        "kriswallsmith/assetic": "1.1.*@dev"
+        "kriswallsmith/assetic": "1.1.*@dev",
+		
+        "sonata-project/admin-bundle": "dev-master",
+        "friendsofsymfony/user-bundle": "dev-master",
+        "sonata-project/user-bundle": "dev-master",
+        "sonata-project/doctrine-orm-admin-bundle": "dev-master"
+
+		
+
     },
     "scripts": {
         "post-install-cmd": [
